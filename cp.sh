@@ -14,3 +14,6 @@ printf ".... done\n";
 printf "Create A.cpp:";
 touch A.cpp;
 printf ".... done\n";
+printf "Coping run.sh:";
+cp ../../run.sh  ../$prob;
+printf ".... done\n"; 
